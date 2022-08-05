@@ -18,3 +18,39 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+#search-box:focus {
+  outline-color: blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+ul p {
+  margin-left: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+}
+
+.country h1 {
+  margin-left: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div span {
+  font-weight: bold;
+}
